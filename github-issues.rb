@@ -3,9 +3,9 @@ require "formula"
 class GithubIssues < Formula
   desc "List of GitHub issues"
   homepage "https://github.com/i2bskn/github-issues"
-  url "https://github.com/i2bskn/github-issues/releases/download/v0.0.2/github-issues_darwin_amd64.tar.gz"
-  sha256 "af7018a172d7fb96a8864c675e3888170f6bdc0d50966736846761d6150847ed"
-  version "v0.0.2"
+  url "https://github.com/i2bskn/github-issues/releases/download/v0.1.0/github-issues_darwin_amd64.tar.gz"
+  sha256 "e5e0262c435452d56d8093dee8deacae7462b35e5db7990a1a3b9012654cd439"
+  version "v0.1.0"
 
   def install
     bin.install "github-issues"
